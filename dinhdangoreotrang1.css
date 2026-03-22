@@ -46,13 +46,14 @@ body
 }
 h2 {
 	width: 1200px;
+	margin: auto;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: clamp(20px,4vw,42px);
     font-weight: 800;
-	margin-top: 600px;
+	margin-top: 550px;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #C17ECB;
