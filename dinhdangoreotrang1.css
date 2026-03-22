@@ -43,20 +43,14 @@ body
     font-family: 'MyBaloo';
     src: url('../fonts/Baloo2-Bold.ttf');
 }
-h2 {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    font-size: clamp(20px,4vw,42px);
+.slogan {
+    font-size: clamp(28px, 6vw, 48px);
     font-weight: 800;
-	margin-top: 550px;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #C17ECB;
-    text-shadow: 2px 2px 8px blue;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    background: linear-gradient(90deg,#ff00cc,#3333ff,#00ffff,#ff00cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: holo 8s linear infinite;
+    text-align: center;
 }
 
 
