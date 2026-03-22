@@ -4,7 +4,8 @@
 }
 
 body {
-  margin: 0;
+  margin: auto;
+	width: 1200px;
   overflow-x: hidden;
 }
 
@@ -186,7 +187,7 @@ body {
 }
 
 form {
-  width: 600px;
+  width: 500px;
   background: rgba(255,255,255,0.55);
   padding: 40px 50px;
   border-radius: 20px;

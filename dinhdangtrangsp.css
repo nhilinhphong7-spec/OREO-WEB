@@ -4,8 +4,10 @@
 }
 
 body {
-  margin: 0;
+ 
   background-size: 200% 200%;
+	margin: auto;
+	width: 1200px;
   animation: spaceMove 12s ease infinite;
   align-items: center;
   justify-content: center;
