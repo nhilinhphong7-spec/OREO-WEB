@@ -175,7 +175,7 @@ body {
 }
 
 .content {
-  background-image:url("images/anhhologam.jpg");
+  background:url("images/anhhologam.jpg");
  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
