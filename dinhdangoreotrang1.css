@@ -45,7 +45,6 @@ body
     src: url('../fonts/Baloo2-Bold.ttf');
 }
 h2 {
-	width: 1200px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: clamp(20px,4vw,42px);
