@@ -45,32 +45,21 @@ body
     src: url('../fonts/Baloo2-Bold.ttf');
 }
 h2 {
-    width: 100%;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-	justify-content: center;
-	display: flex;
     font-size: clamp(20px,4vw,42px);
     font-weight: 800;
     position: absolute;
+    top: 50%;
+    left: 50%;
 	margin-top: 650px;
-	top: 50%;
     transform: translate(-50%, -50%);
-	left: 50%;
-    color:#C17ECB;
-	
+    color: #C17ECB;
     text-shadow: 2px 2px 8px blue;
-
     letter-spacing: 2px;
     text-transform: uppercase;
-	
-	@media (max-width: 768px){
-    .slogan{
-        font-size: 20px;
-        width: 95%;
-    }
-	}
 }
+
 
 @keyframes holo {
     0% { background-position: 0%; }
