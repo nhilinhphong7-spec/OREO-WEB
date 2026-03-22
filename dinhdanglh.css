@@ -176,10 +176,10 @@ body {
 
 .content {
   background:url("images/anhhologam.jpg");
- background-size: cover;
+	background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 100VH;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;

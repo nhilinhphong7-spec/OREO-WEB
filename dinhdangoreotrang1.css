@@ -24,6 +24,7 @@ body
 .banner 
 {
   width: 100%;
+	max-width: 1300px;
  background-size: cover;
   background-position: center;
 	height: auto;
@@ -43,16 +44,18 @@ body
     font-family: 'MyBaloo';
     src: url('../fonts/Baloo2-Bold.ttf');
 }
-.slogan {
-    width: 100%;
+h2 {
+    width: 90%;
     font-family: 'Poppins', sans-serif;
-    margin-top: 550px;
     text-align: center;
+	justify-content: center;
+	display: flex;
     font-size: clamp(20px,4vw,42px);
     font-weight: 800;
     position: absolute;
-    top: 60%;
     left: 50%;
+	margin-top: 650px;
+	top: 50%;
     transform: translate(-50%, -50%);
 
     color:#C17ECB;
@@ -61,6 +64,13 @@ body
 
     letter-spacing: 2px;
     text-transform: uppercase;
+	
+	@media (max-width: 768px){
+    .slogan{
+        font-size: 20px;
+        width: 95%;
+    }
+	}
 }
 
 @keyframes holo {

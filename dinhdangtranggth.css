@@ -242,7 +242,7 @@ body
 }
 
 .about-oreo {
-  padding: 60px 10%;
+  padding: 50px 10%;
   background: linear-gradient(
     120deg,
     #ff9ad5,
@@ -252,7 +252,7 @@ body
     #ffd6a5
   );
  animation: hologram 10s ease infinite;
-	height: 2000px;
+	height: 1900px;
 }
 
 .zigzag {
@@ -333,4 +333,5 @@ footer
 	height: 90px;
 	font-size: 20px;
 	font-weight: bold;
+	position: relative;
 }
